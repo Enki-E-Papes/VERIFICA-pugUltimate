@@ -1,1 +1,32 @@
-p Hello Pug!
+doctype html
+html(lang="en")
+    head
+        meta(charanimal="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel='stylesheet', href='/css/style.css')
+        
+        title Dettagli Animale
+    body.demo
+        header
+            h1= selectedAnimal.razza_animale
+            nav
+                ul  
+                    li 
+                        a(href="/") Home
+                    each animal in animaled
+                        li
+                            a(href=`/api/${animal.id_figurina}`) #{animal.razza_animale}
+        main
+            p
+                strong Specie:
+                |  #{selectedAnimal.specie_animale}
+            p
+                strong Razza:
+                |  #{selectedAnimal.razza_animale}
+            p
+                strong Area di Provenienza:
+                |  #{selectedAnimal.area_provenienza}
+            p
+                strong Rischio Estinzione:
+                |  #{selectedAnimal.rischio_estinzione ? 'Sì' : 'No'}
+            img(src=selectedAnimal.image, alt=selectedAnimal.razza_animale)

@@ -1,0 +1,24 @@
+{"animal" : [{
+    "id_figurina" : 1,
+    "razza_animale" : "Panda",
+    "specie_animale" : "CioccoPanda",
+    "area_provenienza" : "Follicolo",
+    "rischio_estinzione" : true,
+    "image" : "https://imgur.com/gallery/ring-tailed-lemur-lemure-dalla-coda-ad-anelli-o-lemure-catta-madagascar-rN2KzLz"
+},{
+    "id_figurina" : 2,
+    "razza_animale" : "Lemure",
+    "specie_animale" : "CioccoLemure",
+    "area_provenienza" : "Follicolo",
+    "rischio_estinzione" : true,
+    "image" : "https://i.imgur.com/ub9uK8u.png"
+},
+{
+    "id_figurina" : 3,
+    "razza_animale" : "Lepre",
+    "specie_animale" : "CioccoLepre",
+    "area_provenienza" : "Follicolo",
+    "rischio_estinzione" : false,
+    "image" : "https://i.imgur.com/ub9uK8u.png"
+}]
+}
